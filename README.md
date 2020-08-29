@@ -1,10 +1,10 @@
 # subscription-base-api
 
 ```
-RestApi
 URL POST: http://localhost:8085/create/subscription
-Subscription Type: WEEKLY
-Request Body: 
+
+##Subscription Type: WEEKLY
+**Request Body:** 
 {
     "amount": 852.75,
     "subscriptionType": "WEEKLY",
@@ -15,7 +15,7 @@ Request Body:
     }
 }
 
-Reponse:
+**Reponse:**
 {
     "amount": 852.75,
     "subscriptionType": "WEEKLY",
@@ -28,8 +28,8 @@ Reponse:
     ]
 }
 
-Subscription Type: MONTHLY
-Request Body:
+##Subscription Type: MONTHLY
+**Request Body:**
 {
     "amount": 852.75,
     "subscriptionType": "MONTHLY",
@@ -40,7 +40,7 @@ Request Body:
     }
 }
 
-Reponse:
+**Reponse:**
 {
     "amount": 852.75,
     "subscriptionType": "MONTHLY",
