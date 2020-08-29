@@ -1,9 +1,9 @@
 # subscription-base-api
 
-```
+
 URL POST: http://localhost:8085/create/subscription
 
-##Subscription Type: WEEKLY
+## Subscription Type: WEEKLY
 **Request Body:** 
 {
     "amount": 852.75,
@@ -28,7 +28,7 @@ URL POST: http://localhost:8085/create/subscription
     ]
 }
 
-##Subscription Type: MONTHLY
+## Subscription Type: MONTHLY
 **Request Body:**
 {
     "amount": 852.75,
@@ -50,4 +50,4 @@ URL POST: http://localhost:8085/create/subscription
         "25/11/2020"
     ]
 }
-```
+
