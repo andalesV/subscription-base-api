@@ -1,5 +1,6 @@
 # subscription-base-api
 
+```
 RestApi
 URL POST: http://localhost:8085/create/subscription
 Subscription Type: WEEKLY
@@ -49,4 +50,4 @@ Reponse:
         "25/11/2020"
     ]
 }
-
+```
